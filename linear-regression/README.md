@@ -160,18 +160,6 @@ print("Mean Squared Error:", mse)
 
 
 ```python
-y_hat = model.predict(X)
-
-scaler = StandardScaler()
-errors = (y_hat - y)**2
-err_min = errors.min()
-err_max = errors.max()
-
-errors = (errors - err_min) / (err_max - err_min)
-```
-
-
-```python
 fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(12, 5), constrained_layout=True)
 
 # First plot — true values
