@@ -16,7 +16,7 @@ Welcome to my **Daily Machine Learning Challenge**; a personal commitment to sha
 
 ## 📚 Topics Covered
 
-- [ ] Linear Regression
+- [x] Linear Regression
 - [ ] Logistic Regression
 - [ ] Decision Trees
 - [ ] Support Vector Machines
